@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>إعدادات المتجر</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>إعدادات SIDO STORE</h1>
+    <a href="admin.html">العودة للإدارة</a>
+</header>
+
+<section class="order-section">
+
+    <h2>معلومات المتجر</h2>
+
+    <form id="settingsForm">
+
+        <input id="storeName" placeholder="اسم المتجر">
+
+        <label>اختيار اللوغو</label>
+
+        <input id="storeLogo" type="file" accept="image/*">
+
+        <img id="logoPreview"
+        style="width:120px;height:120px;object-fit:contain">
+
+        <input id="whatsappNumber"
+        placeholder="رقم واتساب مع رمز الجزائر 213">
+
+        <button type="submit">حفظ الإعدادات</button>
+
+    </form>
+
+</section>
+
+<script src="settings.js"></script>
+
+</body>
+</html>
