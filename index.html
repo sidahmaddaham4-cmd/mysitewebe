@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIDO STORE | المتجر الإلكتروني</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><header class="header">
+    <img id="storeLogo" src="https://placehold.co/100x100?text=LOGO" alt="Logo">
+    <h1 id="storeName">SIDO STORE</h1>
+    <button onclick="location.href='admin.html'">لوحة التحكم</button>
+</header><section class="hero">
+    <h2>مرحبا بك في SIDO STORE</h2>
+    <p>اكتشف منتجاتنا وأفضل عروضنا</p>
+</section><section class="products-section">
+    <h2>منتجاتنا</h2>
+    <div id="products" class="products"></div>
+</section><section id="orderSection" class="order-section">
+    <h2>إتمام الطلب</h2>
+    <form id="orderForm">
+        <input type="hidden" id="productName">
+        <input type="text" id="customerName" placeholder="الاسم الكامل" required>
+        <input type="tel" id="phone" placeholder="رقم الهاتف" required>
+        <select id="wilaya" required>
+            <option value="">اختر الولاية</option>
+        </select>
+        <input type="text" id="municipality" placeholder="البلدية" required>
+        <input type="text" id="address" placeholder="العنوان بالتفصيل" required>
+        <input type="number" id="quantity" value="1" min="1" required>
+        <input type="text" id="size" placeholder="المقاس">
+        <input type="text" id="color" placeholder="اللون">
+        <button type="submit">تأكيد الطلب</button>
+    </form>
+</section><a class="whatsapp" id="whatsapp" href="#" target="_blank">WhatsApp</a>
+
+<footer>
+    <p>جميع الحقوق محفوظة © SIDO STORE</p>
+</footer><script src="script.js"></script></body>
+</html>
