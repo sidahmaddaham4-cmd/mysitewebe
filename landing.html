@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تفاصيل المنتج</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1 id="storeName">SIDO STORE</h1>
+</header>
+
+<main class="products-section">
+
+    <div id="landingProduct"></div>
+
+    <section class="order-section">
+        <h2>اطلب الآن</h2>
+
+        <form id="landingOrderForm">
+
+            <input id="customerName" placeholder="الاسم الكامل" required>
+
+            <input id="phone" type="tel" placeholder="رقم الهاتف" required>
+
+            <select id="wilaya" required>
+                <option value="">اختر الولاية</option>
+            </select>
+
+            <input id="municipality" placeholder="البلدية" required>
+
+            <input id="address" placeholder="العنوان" required>
+
+            <input id="quantity" type="number" min="1" value="1" required>
+
+            <input id="size" placeholder="المقاس">
+
+            <input id="color" placeholder="اللون">
+
+            <button type="submit">تأكيد الطلب</button>
+
+        </form>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+<script src="landing.js"></script>
+
+</body>
+</html>
